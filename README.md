@@ -36,6 +36,6 @@ ForceSetScrResolution.exe  1080
 
 
 ## License
-Code licensed under the [MIT License](LICENSE.txt).
+Code licensed under the [MIT License](LICENSE).
 
 Copyright (c) 2017 Naohisa Fukuoka

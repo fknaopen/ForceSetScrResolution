@@ -38,4 +38,6 @@ ForceSetScrResolution.exe  1080
 ## License
 Code licensed under the [MIT License](LICENSE).
 
-Copyright (c) 2017 Naohisa Fukuoka
+## Author
+[Naohisa Fukuoka](https://github.com/fknaopen)
+

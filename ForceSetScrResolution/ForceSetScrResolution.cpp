@@ -30,11 +30,12 @@ SOFTWARE.
 
 #include <windows.h>
 
-long SetResolution(int width, int height, int moniter)
+long SetResolution(int width, int height, int monitor)
 {
 	// get device
-	DISPLAY_DEVICE disp;
-	EnumDisplayDevices(NULL, moniter, &disp, NULL);
+	DISPLAY_DEVICE disp = { 0 };
+	disp.cb = sizeof(disp);
+	EnumDisplayDevices(NULL, monitor, &disp, NULL);
 
 	// set resolution
 	DEVMODE mode = { 0 };
